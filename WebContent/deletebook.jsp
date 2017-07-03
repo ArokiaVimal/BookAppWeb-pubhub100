@@ -9,7 +9,7 @@
 	<body>
 
 		<!-- Header -->
-			<header id="header">
+			<header id="header"> 
 				<div class="inner">
 					<a href="menu.jsp" class="logo"><strong>BOOK APPLICATION</strong></a>
 					<nav id="nav">

@@ -25,7 +25,7 @@ public class ViewBook extends HttpServlet {
 			PrintWriter out=response.getWriter();
 			BookDAO bookdao=new BookDAO();
 			List<Book> bookview = new ArrayList<>();
-			try {
+			try { 
 				bookview=bookdao.FindAll();
 				if(bookview.size()>0){
 					out.print("<table><th>ID</th><th>Name</th><th>Price</th>");
