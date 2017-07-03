@@ -10,7 +10,7 @@
 
 		<!-- Header -->
 			<header id="header">
-				<div class="inner"> 
+				<div class="inner">  
 					<a href="menu.jsp" class="logo"><strong>BOOK APPLICATION</strong></a>
 					<nav id="nav">
 												<a href="login.jsp">Logout</a>

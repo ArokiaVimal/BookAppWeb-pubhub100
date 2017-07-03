@@ -20,7 +20,7 @@ public class DeleteServlet extends HttpServlet {
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		Book book = new Book(); 
+		Book book = new Book();  
 		book.setBookid(Integer.parseInt(request.getParameter("bookid")));
 		BookDAO bookdao=new BookDAO();
 		final PrintWriter out=response.getWriter();

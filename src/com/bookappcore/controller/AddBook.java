@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import com.bookappcore.book.Book;
 import com.bookappcore.bookdao.BookDAO;
 
-@WebServlet("/AddBook")
+@WebServlet("/AddBook") 
 public class AddBook extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
